@@ -1,0 +1,120 @@
+html{
+    position: fixed;
+}
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: red;
+
+}
+.navbar {
+    z-index: 1;
+  }
+  .navbar .container-fluid a,.collapse .navbar-nav .nav-item a{
+    color: #09c372;
+}
+  .card {
+    background-color: transparent;
+    display: flex;
+    color: white;
+  }
+  .card .card-body h5{
+  color: #09c372;
+  }
+  .col-md-4{
+    display: flex;
+  }
+
+.qualification-tabs{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    justify-content: space-evenly ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.qualification-data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification-title{
+    font-size: "";
+    font-weight: "";
+}
+
+.qualification-subtitle{
+    font-size: "";
+    font-weight: "";
+}
+
+.qualification-calander{
+    font-size: '';
+    color: red;
+}
+
+.qualification-rounder{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+
+.qualification-line{
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: red;
+    transform: translate(6px,-7px);
+}
+
+
+.qualification-data h3{
+    color: red;
+    font-size: 32px;
+}
+.qualification-data span{
+    color: white;
+    font-size: 25px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    }
+
+    
+@media only screen and (max-width: 765px){
+  h1,h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  .qualification-data h3{
+    font-size: large;
+  }
+  .qualification-data span{
+    font-size: medium;
+  }
+
+  .col-md-4{
+    margin-bottom: 50px;
+  }
+
+  html{
+    position: relative;
+  }
+  .container{
+    margin-top: 30%;
+  }
+}

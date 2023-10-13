@@ -1,0 +1,33 @@
+html,
+body {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: #000;  
+  }
+
+.dots{
+  width: 100vw;
+  height: 120vh;
+  z-index: -1;
+}
+/* Common styles for both mobile and desktop */
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+  /* Custom styles for mobile screens */
+  .dots {
+    /* Adjustments for mobile */
+    height: 170vh;
+  }
+}
+
+/* Styles for desktop screens */
+@media (min-width: 768px) {
+  /* Custom styles for desktop screens */
+  .dots{
+    /* Adjustments for desktop */
+  }
+}
